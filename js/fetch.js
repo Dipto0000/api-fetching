@@ -27,6 +27,7 @@ function postLoaded() {
     .then((posts) => postLoader(posts));
 }
 
+/* 31 line er postLoader er parameter e jekono value e to bosano jabe. akhon 27 number line theke just post er value ta data te bose jacche*/
 function postLoader(data) {
   const usersUl = document.getElementById("users-ul");
   for (const post of data) {
